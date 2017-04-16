@@ -1,0 +1,12 @@
+HOME=/home/cczhong/Codes/TranDER
+Project_ID=TXTR_vs_DMSO
+Num_threads=8
+Treatment_group=/home/cczhong/Works/KU_XuLab/Data/FASTQ/DMSO_S1_L008_R1_001.fastq.gz;/home/cczhong/Works/KU_XuLab/Data/FASTQ/DMSO_S2_L008_R1_001.fastq.gz
+Control_group=/home/cczhong/Works/KU_XuLab/Data/FASTQ/TXTR_S1_L008_R1_001.fastq.gz;/home/cczhong/Works/KU_XuLab/Data/FASTQ/TXTR_S2_L008_R1_001.fastq.gz
+Reference_prefix=/home/cczhong/Database/Gencode/gencode.v26.transcripts
+Reference_transcript=/home/cczhong/Database/Gencode/gencode.v26.transcripts.fa
+exe_FASTQC=~/Tools/FastQC/fastqc
+exe_TRIMMOMATIC=~/Tools/trimmomatic-master/classes/trimmomatic.jar
+exe_HISAT2=/home/cczhong/Tools/hisat2-2.0.5/hisat2
+exe_EXPRESS=/home/cczhong/Tools/express-1.5.1-linux_x86_64/express
+exe_RSCRIPT=/usr/bin/Rscript
